@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace UnicomTIC_Management.Models
 {
-    internal class Staff
+    internal class Mentor
     {
-        public int StaffID { get; set; }
-        public string StaffName { get; set; }
-        public string NIC {  get; set; }
+        public int MentorID { get; set; }
+        public string MentorName { get; set; }
+        public string NIC { get; set; }
         public int DepartmentID { get; set; }
-
     }
 }

@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace UnicomTIC_Management.Models
 {
-    internal class Attendance
+    internal class Mark
     {
-        public int ID { get; set; }
+        public int MarksID { get; set; }
         public int StudentID { get; set; }
         public int SubjectID { get; set; }
-        public string Date {  get; set; }
-        public string Status { get; set; }
+        public int ExamID { get; set; }
+        public int MarksObtained { get; set; }
+
     }
 }

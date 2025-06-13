@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace UnicomTIC_Management.Models
 {
-    internal class Attendance
+    internal class TopPerformer
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public int StudentID { get; set; }
         public int SubjectID { get; set; }
-        public string Date {  get; set; }
-        public string Status { get; set; }
+        public string Term  { get; set; }
+        public double GPA { get; set; }
     }
 }
